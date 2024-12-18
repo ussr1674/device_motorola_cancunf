@@ -284,6 +284,7 @@ PRODUCT_PACKAGES += \
     SettingsOverlayCancunf \
     SettingsProviderOverlayCancunf \
     SettingsProviderOverlayCancunpXT2431-1 \
+    SettingsProviderOverlayCancunpXT2431-2 \
     SettingsProviderOverlayCancunpXT2431-3 \
     SystemUIOverlayCancunf \
     TelephonyOverlayCancunf \
@@ -298,6 +299,7 @@ PRODUCT_PACKAGES += \
     RegulatoryOverlayXT2343-4 \
     RegulatoryOverlayXT2343-5 \
     RegulatoryOverlayXT2431-1 \
+    RegulatoryOverlayXT2431-2 \
     RegulatoryOverlayXT2431-3
 
 # Permissions
