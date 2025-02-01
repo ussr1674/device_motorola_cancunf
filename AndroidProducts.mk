@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_cancunf.mk
+    $(LOCAL_DIR)/lineage_cancunf.mk
