@@ -12,14 +12,27 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/cancunf/device.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Project Matrixx
+MATRIXX_BUILD_TYPE := UnOfficial
+MATRIXX_CHIPSET := mt6855
+MATRIXX_BATTERY := 6000 mAh
+MATRIXX_DISPLAY := 1080×2400
+MATRIXX_MAINTAINER := Soviet(ussr_1674)
+# Matrixx GMS
+WITH_GMS := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosp_cancunf
+PRODUCT_NAME := lineage_cancunf
 PRODUCT_DEVICE := cancunf
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g54 5G
+
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
