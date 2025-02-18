@@ -15,7 +15,7 @@ $(call inherit-product, device/motorola/cancunf/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Project Matrixx
-MATRIXX_BUILD_TYPE := UnOfficial
+MATRIXX_BUILD_TYPE := Unofficial
 MATRIXX_CHIPSET := mt6855
 MATRIXX_BATTERY := 6000 mAh
 MATRIXX_DISPLAY := 1080×2400
