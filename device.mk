@@ -456,4 +456,4 @@ $(call inherit-product, vendor/motorola/cancunf/cancunf-vendor.mk)
 $(call inherit-product, vendor/motorola/cancunf-motcamera/cancunf-motcamera-vendor.mk)
 
 # Signed-Keys
--include vendor/orion-priv/keys/keys.mk
+-include vendor/infinity-priv/keys/keys.mk
