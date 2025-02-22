@@ -12,20 +12,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/cancunf/device.mk)
 
 # Inherit some common OrionOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-#OrionOS
-ORION_MAINTAINER := Soviet
-ORION_MAINTAINER_LINK := https://t.me/ussr_1674
-ORION_BUILD_TYPE := Official
-ORION_GAPPS := true
+# Infinity-X Flags
+INFINITY_BUILD_TYPE := Unofficial
+INFINITY_MAINTAINER := ussr_1674
+TARGET_SUPPORTS_BLUR := false
+TARGET_HAS_UDFPS := false
+WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 # for devices that support udfps
 TARGET_HAS_UDFPS := false
-# Bootanimation for pixel device
-TARGET_PIXEL_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := orion_cancunf
+PRODUCT_NAME := infinity_cancunf
 PRODUCT_DEVICE := cancunf
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola

@@ -6,4 +6,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/orion_cancunf.mk
+    $(LOCAL_DIR)/infinity_cancunf.mk

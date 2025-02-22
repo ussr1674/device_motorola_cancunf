@@ -69,3 +69,9 @@ ro.sys.usb.storage.type=mtp
 
 # Zygote
 zygote.critical_window.minute=10
+
+# AboutPhone Info
+ro.infinity.soc=MediaTek Dimensity 7020
+ro.infinity.battery=6000 mAh
+ro.infinity.display=1080 × 2400, 120Hz
+ro.infinity.camera=50MP + 8MP
