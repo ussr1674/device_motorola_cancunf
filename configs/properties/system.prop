@@ -55,3 +55,10 @@ ro.sys.usb.storage.type=mtp
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Infinity-X
+ro.infinity.soc=Mediatek Dimensity 7020 (6 nm)
+ro.infinity.battery=6000 mAh
+ro.infinity.display=6.5 FHD+ (2400x1080) 120Hz
+ro.infinity.camera=50MP + 2MP (macro) + 16MP
+ro.product.marketname=Moto G54 5G
