@@ -459,3 +459,7 @@ PRODUCT_COPY_FILES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/motorola/cancunf/cancunf-vendor.mk)
 $(call inherit-product, vendor/motorola/cancunf-motcamera/cancunf-motcamera-vendor.mk)
+
+
+# Signed
+-include vendor/infinity-priv/keys/keys.mk
