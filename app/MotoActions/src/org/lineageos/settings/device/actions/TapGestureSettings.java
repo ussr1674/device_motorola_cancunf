@@ -35,8 +35,8 @@ import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 import androidx.preference.SwitchPreferenceCompat;
 
-import lineageos.hardware.LineageHardwareManager;
-import lineageos.hardware.TouchscreenGesture;
+import lineageos.hardware.LineageHardwareManager; // Need FWB support
+import lineageos.hardware.TouchscreenGesture; // Need FWB support
 import org.lineageos.settings.device.Constants;
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 import com.android.settingslib.widget.SettingsBasePreferenceFragment;
