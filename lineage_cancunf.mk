@@ -12,24 +12,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/cancunf/device.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := infinity_cancunf
+PRODUCT_NAME := lineage_cancunf
 PRODUCT_DEVICE := cancunf
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g54 5G
 
 # InfinityOS Custom Flags
-INFINITY_MAINTAINER := "Soviet(ussr_1674)"
+MISTOS_MAINTAINER := "Soviet(ussr_1674)"
 
 # Blur & GApps Config
-TARGET_SUPPORTS_BLUR := false
+TARGET_ENABLE_BLUR := false
 WITH_GAPPS := true
-TARGET_SHIPS_FULL_GAPPS := false
-TARGET_SHIPS_GOOGLE_DIALER := true
-USE_MOTO_CALCULATOR := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 

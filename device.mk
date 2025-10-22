@@ -460,6 +460,5 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, vendor/motorola/cancunf/cancunf-vendor.mk)
 $(call inherit-product, vendor/motorola/cancunf-motcamera/cancunf-motcamera-vendor.mk)
 
-
 # Signed
--include vendor/infinity-priv/keys/keys.mk
+-include vendor/lineage-priv/keys/keys.mk
