@@ -22,6 +22,7 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g54 5G
 
 # InfinityOS Custom Flags
+INFINITY_BUILD_TYPE := OFFICIAL
 INFINITY_MAINTAINER := "Soviet(ussr_1674)"
 
 # Blur & GApps Config
