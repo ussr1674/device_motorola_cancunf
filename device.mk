@@ -280,6 +280,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayCancunfXT2343-2 \
     LauncherOverlayCancunf \
     NfcResOverlayCancunf \
+    UpdaterOverlayCancunf \
     PowerOffAlarmOverlayCancunf \
     SettingsOverlayCancunf \
     SettingsProviderOverlayCancunf \
